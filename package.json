@@ -1,0 +1,34 @@
+{
+  "name": "express-passport-instagram",
+  "version": "1.0.0",
+  "description": "Node.js Login/Register using Passport and JWT",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "nodemon dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tufail/express-passport-instagram.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "passport",
+    "jwt",
+    "instagram",
+    "login",
+    "register"
+  ],
+  "author": "Mohammed Tufail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tufail/express-passport-instagram/issues"
+  },
+  "homepage": "https://github.com/tufail/express-passport-instagram#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0"
+  }
+}
